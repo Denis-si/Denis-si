@@ -28,12 +28,12 @@ Through hands-on engineering fellowship training at **The Knowledge House**, I s
 * **Shift-Left Security Gate:** Engineered a GitHub Actions pipeline using `tfsec` with `--soft-fail=false` to automatically fail builds on security policy violations prior to deployment.
 * **Least-Privilege Firewalls:** Configured Security Groups restricting administrative SSH (Port 22) exclusively to authorized administrator IP ranges via `/32` CIDR masks.
 
-#### 📦 [Container Security & Image Signing Pipeline](https://github.com/Denis-si)
+#### 📦 [Container Security & Image Signing Pipeline]
 > *End-to-end container hardening and supply chain security framework.*
 * Built hardened, non-root Docker minimal base images for microservices.
 * Integrated automated CVE vulnerability scanning using **Trivy** and **Grype**, generated Software Bill of Materials (**SBOM**) using **Syft**, and enforced supply chain integrity with **Cosign** image signatures.
 
-#### 🔍 [Cloud Threat Detection & Security Automation Scripts](https://github.com/Denis-si)
+#### 🔍 [Cloud Threat Detection & Security Automation Scripts]
 > *Python-based system auditing and log analysis automation for digital forensics and incident response (DFIR).*
 * Developed structured audit utilities (`system_auditor.py`) to parse Linux logs, carve memory artifacts, and output JSON threat intelligence reports directly into an ELK SIEM pipeline.
 
